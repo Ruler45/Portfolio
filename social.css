@@ -1,0 +1,62 @@
+.dskill{
+   height:fit-content;
+}
+.soc{
+    height:400px;
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+.desc{
+    width: 90%;
+}
+.face{
+    height:250px;
+    width:100%;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+.face:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px grey;
+    /* transform: translateY(-10px) rotateZ(360deg); */
+    height:100px;
+    width:100px;
+    border: 1px solid none;
+    border-radius: 50px;
+    transition: 2s;
+    animation: mymove 3s 1;
+    /* animation-iteration-count: 1; */
+}
+
+.face1{
+    background-image: url("images/face1.png");
+    background-size: cover;
+}
+.face2{
+    background-image: url("images/face2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.face3{
+    background-image: url("images/face3.png");
+    background-size: cover;
+}
+.face4{
+    background-image: url("images/face4.png");
+    background-size: cover;
+}
+@media screen and (max-width:540px) {
+    .soc{
+        height:400px;
+        width:300px;
+    }
+    .face{
+        height:250px;
+        width:80%;
+    }
+}
