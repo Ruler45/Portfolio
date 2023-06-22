@@ -1,18 +1,28 @@
 :root{
-    --section-height:600px;
+    --section-height:fit-content;
 }
 .pro{
     width:var(--inside-width);
     height:var(--section-height);
     flex-direction: column;
     margin-block: 25px;
+    
 }
 .thumb{
     width:600px;
     height:150px;
-    background-image: url("images/asset0.png");
     background-size: contain;
     background-repeat: no-repeat;
+}
+.thumb:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 5px grey;
+}
+.thumb1{
+    background-image: url("images/asset0.png");
+}
+.thumb2{
+    background-image: url("images/thumb2.png");
 }
 .thumb:hover{
     cursor: pointer;
