@@ -17,10 +17,10 @@ document.querySelector('.hamburger').addEventListener("click", () => {
 
 const cnt=document.querySelectorAll(".container");
 
-document.querySelector('.fa-toggle-off').addEventListener("click", () => {
+document.querySelector('.fa-sun').addEventListener("click", () => {
     setTimeout(() => {
-        document.querySelector('.fa-toggle-off').classList.toggle('fa-toggle-on');
-    }, 300);
+        document.querySelector('.fa-sun').classList.toggle('fa-moon');
+    }, 200);
     for(let i=0 ;i<cnt.length;i++)
     cnt[i].classList.toggle("darkcnt");
     document.body.classList.toggle("darkbody");

@@ -149,6 +149,9 @@ main>.darkcnt:hover{
     cursor: pointer;
     transition: 0.3s;
 }
+.btn:active{
+    box-shadow: 5px 5px 5px grey;
+}
 .desc>a{
     color:white;
 }
@@ -168,6 +171,10 @@ header {
 }
 .menu{
     display:none;
+}
+.fa-sun{
+    margin-right: 20px;
+    transition: 0.3s ease-in;
 }
 /* aside starts */
 main {
