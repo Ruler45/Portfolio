@@ -1,6 +1,6 @@
 .skill {
     height: 50px;
-    margin: auto 10px;
+    margin: 10px 10px;
     width: 90%;
     align-items: center;
     justify-content: left;
@@ -68,14 +68,16 @@
     content: '9/10';
 }
 .hobby{
+    margin-inline: auto;
     height:300px;
-    justify-content: start;
+    /* justify-content: start; */
 }
 .hobby>ul{
     flex-direction: column;
     height:250px;
     padding: 10px;
     margin-left: 30px;
+    justify-self: start;
     justify-content: space-evenly;
 }
 

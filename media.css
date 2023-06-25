@@ -95,15 +95,7 @@
         height:60px;
         flex-flow: wrap row;
     }
-    .container {
-        margin-inline: auto;
-        margin-block: 10px;
-        padding: 10px;
-    }
 
-    footer {
-        height: 650px;
-    }
 }
 @media screen and (max-width:540px) {
     :root {
@@ -152,19 +144,21 @@
         transform: translateX(-120px);
         /* transition: 0.4s ease-in; */
     }
+    /* hamburger starts */
+    
     
     .hamburger{
         margin:12px 0 0 5px;
         display:flex;
-        height:20px;
-        width:90px;
+        width:fit-content;
+        height: fit-content;
         position:fixed;
         z-index: 2;
     }
-    .cross{
+    /* .cross{
         position: relative;
         left:75px;
-    }
+    } */
 }
 @media screen and (max-width:400px) {
     :root {

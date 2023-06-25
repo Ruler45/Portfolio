@@ -3,7 +3,7 @@
 }
 .pro{
     width:var(--inside-width);
-    height:var(--section-height);
+    row-gap: 20px;
     flex-direction: column;
     margin-block: 25px;
     
@@ -44,7 +44,7 @@
 .darkproj:hover{
     background-color: rgb(2, 1, 49);
 }
-.desc{
+.project>.desc{
     width:90%;
     text-align: left;
 }

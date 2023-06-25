@@ -11,10 +11,22 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
     <link rel="manifest" href="favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="skill.css">
+    <link rel="stylesheet" href="social.css">
+    <link rel="stylesheet" href="contact.css">
+    
     <script src="https://kit.fontawesome.com/3a5f3c0ea0.js" crossorigin="anonymous"></script>
 </head>
 
 <body >
+    <div class="hamburger">
+        <div id="ham" class="ham flex">
+            <div id="l1" class="line l1 flex"></div>
+            <div id="l2" class="line flex"></div>
+            <div id="l3" class="line flex"></div>
+        </div>
+     </div>
     <header>
         <h2 >This is a Portfolio website for Sahin Alam.</h2>
        <i class="fa-solid fa-sun"></i>
@@ -22,183 +34,25 @@
     </header>
     <div class="top flex topgo">
         <ul class="container">
-            <a href="">
-                <li>Home</li>
-            </a>
-            <a href="project.html">
-                <li>Project</li>
-            </a>
-            <a href="social.html">
-                <li>Socials</li>
-            </a>
-            <a href="skills.html">
-                <li>Skills and Hobbies</li>
-            </a>
-            <a href="contact.html">
-                <li>Contact Form</li>
-            </a>
+           
+                <li id="home">Home</li>
+            
+            
+                <li id="project" class="">Project</li>
+           
+            
+                <li id="social">Socials</li>
+            
+            
+                <li id="skill">Skills and Hobbies</li>
+            
+            
+                <li id="contact">Contact Form</li>
+            
         </ul>
     </div>
-    <div class="hamburger">
-        <div class="ham"> <i class="fa-solid fa-bars"></i></div>
-        <div class="cross"><i class="fa-solid fa-xmark"></i></div>
-     </div>
-    <main>
-        <aside class="flex">
-            <h3>Nav-bar</h3>
-            <ul>
-                <a href="#info">
-                    <li>Main</li>
-                </a>
-                <a href="#dls">
-                    <li>Life skills</li>
-                </a>
-                <a href="#ass">
-                    <li>Association</li>
-                </a>
-                <a href="#footer">
-                    <li>Footer</li>
-                </a>
-            </ul>
-            <div class="menu flex"></div>
-        </aside>
-        <div id="info" class="intro container ">
-            <div class="info flex">
-                <h1>Hi,I am </h1>
-                <h2>Sahin Alam</h2>
-                <h3>
-                    <!-- Student At NIT Silchar <br>
-                    Front-end Web-Developer -->
-                    <span id="element"></span>
-                </h3>
-                    <!-- <span id="#element">
-
-                    </span> -->
-                <br>
-                <h4 style="padding-block: 8px;">Motivated mechanical engineering under-graduate with a passion for web
-                    development. Strong
-                    foundation and
-                    proficiency in HTML, CSS, and JavaScript. Eager to
-                    contribute to innovative web development projects and expand technical expertise.</h4>
-                <div class="button flex">
-                    <a target="_blank"
-                        href="https://drive.google.com/file/d/1-arlK-F8TLung2FwvFMd8sTAR0ilhGNu/view?usp=drive_link">
-                        <div class="btn flex">Download Resume<i class="fa-solid fa-download"></i></div>
-                    </a>
-                    <a href="mailto:sahina_ug_22@nits.ac.in">
-                        <div class="btn flex">Contact me<i class="fa-regular fa-envelope"></i></div>
-                    </a>
-                </div>
-            </div>
-            <div class="pic flex"></div>
-        </div>
-        <div id="dls" class="dskills container">
-            <h2> Daily Life Skills</h2>
-            <div class="com dskill flex">
-                <div class="img img1"></div>
-                <div class="desc flex">
-                    <h3>Communication Skills</h3>
-                    <p>Active listening and empathetic understanding of others' perspectives. Skilled in conflict
-                        resolution, finding mutually beneficial solutions. Strong interpersonal skills, fostering
-                        positive
-                        relationships with team members and clients.Adaptability in communication style for diverse
-                        audiences.Experienced in delivering impactful presentations and facilitating discussions.</p>
-                </div>
-            </div>
-            <div class="cam dskill flex">
-                <div class="desc flex">
-                    <h3>Photography Skills</h3>
-                    <p>Proficient in capturing high-quality photographs with a keen eye for composition, lighting, and
-                        timing.Strong understanding of different photography genres, including landscape, portrait,
-                        product,
-                        and event photography.Knowledgeable in utilizing various photography techniques, such as long
-                        exposure, HDR, and depth of field.Continuous passion for learning and keeping up with the latest
-                        trends and advancements in photography.</p>
-                    <a href="">
-                        <div class="btn flex">Learn more<i class="fa-solid fa-arrow-right"></i></div>
-                    </a>
-                </div>
-                <div class="img2 img"></div>
-
-            </div>
-            <div class="act dskill flex">
-                <div class="img3 img"></div>
-                <div class="desc flex">
-                    <h3>On-Screen Skills</h3>
-                    <p>Profound acting skills on and off the camera and stage.Displaying self confidence and excellent
-                        verbal skills on the stage. Member of Advay(Dramatics club of NIT Silchar).</p>
-                    <a href="">
-                        <div class="btn flex">Learn more<i class="fa-solid fa-arrow-right"></i></div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div id="ass" class="ass container">
-            <h2>Associations</h2>
-            <div class="inst dskill flex">
-                <div class="desc flex">
-                    <h3>Student at NIT Silchar</h3>
-                    <p> At Mechanical Engineering department(Batch of 2026).
-                        <br>
-                        <br>
-                        <b>National Institute Of Technology, Silchar (राष्ट्रीय प्रौद्योगिकी संस्थान, सिलचर)</b> is one
-                        of the 31 National Institutes of Technology of India and was established in 1967 as a Regional
-                        Engineering College in Assam.
-                    </p>
-                </div>
-                <a target="_blank" href="http://www.nits.ac.in/">
-                    <div class="img img4"></div>
-                </a>
-
-            </div>
-            <div class="gyan dskill flex">
-                <a target="_blank" href="https://www.facebook.com/Gyansagar.NITS">
-                    <div class="img img5"></div>
-                </a>
-                <div class="desc flex">
-                    <h3>Member of Gyansagar</h3>
-                    <p> Active member of Gyansagar's Teaching Team. Also associated with the Marketing and Animal-Care
-                        wing.
-                        <br><br>
-                        <a target="_blank" href="http://www.nits.ac.in/campuslife/gyansagar.php">
-                            <b>About Gyansagar:</b></a>
-
-                        Gyansagar is a social service wing of NIT Silchar, volunteered by the students of institute
-                        which is encouraged and approved by Prof. (Dr) N.V.Deshpander, Director, NIT Silchar. Since last
-                        five years, Gyansagar has put its effort towards the development of the society.
-                    </p>
-                </div>
-            </div>
-            <div class="ti dskill flex">
-                <div class="desc flex">
-                    <h3>Member of Think India NIT Silchar</h3>
-                    <p>
-                        <a target="_blank" href="https://www.thinkindiaorg.in/">About Think India:</a> We at Think India
-                        have felt the need to bind the students with an Indian nationalistic string to harness this part
-                        of national treasure in furthering our aim of national reconstruction.Students from IISc, IIMB,
-                        NIMHANS and NLSIU joined together to create a joint forum for the students from premier
-                        institutes of India in 2006.
-                    </p>
-                </div>
-                <a target="_blank" href="https://www.facebook.com/ThinkindiaNITS">
-                    <div class="img img6">
-                    </div>
-                </a>
-            </div>
-            <div class="adv dskill flex">
-                <a target="_blank" href="https://www.facebook.com/advay.nitsilchar">
-                    <div class="img img7"></div>
-                </a>
-                <div class="desc flex">
-                    <h3>Member Of Advay</h3>
-                    <p> Active member of Advay.Has been a part of various events such as Nukkad Natak(26 Jan 2023), Advay Farewell Mime etc.
-                        <br><br>
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </main>
+    
+   <main id="main"></main>
     <footer id="footer">
         <div class="foot container flex">
             <div class="about flex">
@@ -262,11 +116,15 @@
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
   <!-- Setup and start animation! -->
+ 
+  <script src="inner.js"></script> 
   <script>
     var typed = new Typed('#element', {
       strings: ['Student at NIT Silchar.','Tech-Enthusiast.','Front-End Developer.'],
       typeSpeed: 50,
     });
+
+    
   </script>
 </body>
 
