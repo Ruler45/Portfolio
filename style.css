@@ -87,7 +87,7 @@ a {
 
 
 .darkbody{
-    background-color: rgb(32, 2, 59);
+    background-color: rgb(2 4 59 );
     color: white;
 }
 .heading {
@@ -123,10 +123,9 @@ main>.container:hover {
    
 }
 .darkcnt{
-    /* background-color: rgb(32, 32, 32); */
     color:white;
-    /* background-color: black; */
 }
+
 main>.darkcnt:hover{
     background-color:black;
     color: white;
@@ -200,6 +199,7 @@ aside>ul {
     display: grid;
     height: 120px;
 }
+/* hamburger classes */
 .hamburger{
     display: none;
 }
