@@ -231,7 +231,7 @@ function project() {
                     first responsive page that I created. Working on it I leaned about CSS Grid, Media-Querry
                     etc.
                 </p>
-                <a target="_blank" href="https://github.com/Ruler45/news-app.git">
+                <a target="_blank" href="https://github.com/Ruler45/favicon.git">
                     <div class="btn flex">Learn more<i class="fa-solid fa-arrow-right"></i></div>
                 </a>
 
@@ -245,7 +245,7 @@ function project() {
             <div class="desc flex">
                 <p>TThis is a demo news website project I created to learn the use of API and its use. Though the design is not completely original yet it taught me to effectively use JavaScript.
                 </p>
-                <a target="_blank" href="https://github.com/Ruler45/favicon.git">
+                <a target="_blank" href="https://github.com/Ruler45/news-app.git">
                     <div class="btn flex">Learn more<i class="fa-solid fa-arrow-right"></i></div>
                 </a>
 
