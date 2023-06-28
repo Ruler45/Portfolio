@@ -261,7 +261,7 @@ function social() {
         <a target="_blank" href="https://www.facebook.com/sahin.alam.9216778?mibextid=ZbWKwL">
             <div class="soc flex">
                 <div class="face face1 flex"></div>
-                <div class="desc">
+                <div class="des">
                     <h3><i class="fa-brands fa-square-facebook"></i>Facebook</h3>
                 
                 </div>
@@ -270,7 +270,7 @@ function social() {
         <a target="_blank" href="https://www.linkedin.com/in/sahin-alam-96250324a/">
             <div class="soc flex">
                 <div class="face face2 flex"></div>
-                <div class="desc">
+                <div class="des">
                     <h3><i class="fa-brands fa-linkedin"></i>LinekdIn</h3>
                 </div>
             </div>
@@ -278,7 +278,7 @@ function social() {
         <a target="_blank" href="https://www.instagram.com/sahinisboss/">
             <div class="soc flex">
                 <div class="face face3 flex"></div>
-                <div class="desc">
+                <div class="des">
                     <h3><i class="fa-brands fa-instagram"></i>Instagram</h3>
                 </div>
             </div>
@@ -286,7 +286,7 @@ function social() {
         <a target="_blank" href="https://twitter.com/sahin0945?t=z3RGc6kQte-piuuFQiQvCA&s=08">
             <div class="soc flex">
                 <div class="face face4 flex"></div>
-                <div class="desc">
+                <div class="des">
                     <h3><i class="fa-brands fa-twitter"></i>Twitter</h3>
                 </div>
             </div>
