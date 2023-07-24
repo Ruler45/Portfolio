@@ -5,8 +5,8 @@
     }
 
     .img {
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
         border: 1px solid none;
         border-radius: 200px;
     }
@@ -99,6 +99,14 @@
         height: 60px;
         flex-flow: wrap row;
     }
+    .dskill{
+        border: 0.5px solid #a9a9a99a;
+        border-radius: 10px;
+        box-shadow: 0 0 5px var(--shadow);
+        background-image: linear-gradient(to top , rgba(128, 179, 245, 0.763),60% , rgb(191, 220, 246) );
+        transition: 300ms ease-in-out;
+       
+    }
 
 }
 
@@ -118,8 +126,8 @@
     }
 
     .img {
-        width: 300px;
-        height: 300px;
+        width: 270px;
+        height: 270px;
         border: 1px solid none;
         border-radius: 200px;
     }

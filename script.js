@@ -63,13 +63,10 @@ function home() {
             <li>Main</li>
         </a>
         <a href="#dls">
-            <li>Life skills</li>
+            <li>Soft skills</li>
         </a>
         <a href="#ass">
             <li>Association</li>
-        </a>
-        <a href="#footer">
-            <li>Footer</li>
         </a>
     </ul>
     <div class="menu flex"></div>
@@ -105,7 +102,7 @@ function home() {
     <div class="pic flex"></div>
 </div>
 <div id="dls" class="dskills container">
-    <h2> Daily Life Skills</h2>
+    <h2> Soft Skills</h2>
     <div class="com dskill flex">
         <div class="img img1"></div>
         <div class="desc flex">
